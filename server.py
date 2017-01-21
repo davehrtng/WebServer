@@ -47,9 +47,9 @@ def main():
     site_index = '/site_index.html'
     file_not_found_page = '/no_such_file.html'
 
-    valid_paths = ['/', '/index.html', '/books/tomsawyer.txt', '/books/theimportanceofbeingearnest.txt',
-                   '/pictures/puppy.jpg', '/pictures/catfight.jpg' '/favicon.ico',
-                   '/pictures/clouds.jpg']
+    valid_paths = ['/', doc_index, site_index, file_not_found_page, '/books/tomsawyer.txt',
+                   '/books/theimportanceofbeingearnest.txt', '/pictures/puppy.jpg', '/pictures/catfight.jpg',
+                   '/favicon.ico', '/pictures/clouds.jpg']
 
     directories = ['pictures', 'books']
 
